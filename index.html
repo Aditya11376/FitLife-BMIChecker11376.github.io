@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="bmi.png">
+    <link rel="stylesheet" href="style.css">
+    <title> BMI Pro – Know Your Health </title>
+</head>
+<body>
+    <section>
+        <div id="container">
+            <div class="head_container">
+                <h1 id = "head">BMI Calculator</h1>
+                <h3 id="about">A BMI (Body Mass Index) Calculator is a simple tool that helps to determine BMI based on weight (kg) and height (cm). BMI is a measure that categorizes a person's body weight relative to their height, helping assess if they are underweight, normal weight, overweight, or obese.</h3>
+            </div>
+
+            <div class="table_box">
+                <table>
+                    <tr>
+                        <th>Underweight (less than 18.5)</th>
+                        <th>Normal weight (between 18.5 and 24.9)</th>
+                        <th>Overweight (between 25 and 29.9)</th>
+                        <th>Obese (30 or more)</th>
+                    </tr>
+                    <tr>
+                        <td>Less than 18.5</td>
+                        <td>18.5 – 24.9</td>
+                        <td>25 – 29.9</td>
+                        <td>More than 30</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="input_container">
+                <label for="weight">
+                    Weight : <input type="number" id="weight" name="myWeight" placeholder="Enter Weight (in kg) ">
+                </label>
+                <label for="height">
+                    Height : <input type="number" id="height" name="myHeight" placeholder="Enter Height (in cm)">
+                </label>
+                <button id="submit">Calculate</button>        
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
